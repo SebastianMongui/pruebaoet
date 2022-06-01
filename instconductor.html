@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>CONDUCTOR</title>
+<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+</head>
+<body bgcolor="#F0F8FF">
+<font face="Verdana">
+    <center><br><br><br><h1>INSERTAR CONDUCTOR<br></h1></center>
+
+    <form method="POST" action="insconductor.php" onsubmit="return validarConductor()">
+
+        <table border="0" cellspacing="0" cellpadding="0" width="80%" align="center" bgcolor="#CEE3F6">
+        <tr><th> No. Documento</th><td><input id="num_docume" type="text" name="num_docume"></td></tr>
+        <tr><th> Primer Nombre</th><td><input id="nom_conduc" type="text" name="nom_conduc"></td></tr>
+        <tr><th> Segundo Nombre</th><td><input id="nom_conduc2" type="text" name="nom_conduc2"></td></tr>
+        <tr><th> Apellidos</th><td><input id="apellidos" type="text" name="apellidos"></td></tr>
+        <tr><th>Tel&eacute;fono</th><td><input id="num_telef" type="text" name="num_telef"></td></tr>
+        <tr><th>Ciudad </th><td><input id="nom_ciudad" type="text" name="nom_ciudad"></td></tr>
+        <tr><th>&nbsp;</th><td></td></tr>
+        <tr>
+            <th><input type="submit" value="INSERTAR" >
+            </th><th><input type="reset" value="BORRAR"></th>
+        </tr>
+        </table>
+    </form>
+</font>
+<br><br><center><a href="MENU.html"><input type="submit" value="PRINCIPAL"></a> <br><br></center>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="validation.js"></script>
+</body>
+</html>
+
+    
